@@ -1,0 +1,39 @@
+.navbar-local{
+height: 80px;
+background-color: #000;
+display: flex;
+justify-content: start;
+align-items: center;
+}
+
+.menu-bars{
+margin-left: 2rem;
+background: none;
+font-size: 2rem;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    right: -240px;
+    top: 0;
+    transition: .5s;
+}
+.nav-menu-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    right: -240px;  
+    right: 0;
+    transition: 1s;
+}
+

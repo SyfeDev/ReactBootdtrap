@@ -1,0 +1,14 @@
+.col {
+border: 1px solid #000;
+}
+
+img{
+    height: 100px !important;
+    object-fit: scale-down;
+}
+
+.navbar-loc{
+   border: 1px solid #e7e7e7;
+   margin: 15px;
+   border-radius: 50px;
+}
